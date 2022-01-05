@@ -71,17 +71,18 @@ function gotResult(error,results)
         {
            document.getElementById("update_emoji").innerHTML = "&#128076;";
         }
+
         if( prediction_2 =="victory")// we can write results[0].label also//
         {
-           document.getElementById("update_emoji").innerHTML = "&#9996;";
+           document.getElementById("update_emoji2").innerHTML = "&#9996;";
         }
         if( prediction_2 =="best")
         {
-           document.getElementById("update_emoji").innerHTML = "&#128077;";
+           document.getElementById("update_emoji2").innerHTML = "&#128077;";
         }
         if( prediction_2 =="amazing")
         {
-           document.getElementById("update_emoji").innerHTML = "&#128076;";
+           document.getElementById("update_emoji2").innerHTML = "&#128076;";
         }
     
     }}
